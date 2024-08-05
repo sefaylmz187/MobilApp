@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7EF696E7-04D3-49BD-BE35-89CD9161731E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{59FE952F-42E8-461C-A6BC-DDC5C8E4B3A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{3BD1E28B-F6C5-4097-98E3-9BA9A2EF3BD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilApp.Entities", "MobilApp.Entities\MobilApp.Entities.csproj", "{1B80F08B-BB3C-475E-A45E-6BD56675B6C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilApp.Repository", "MobilApp.Repository\MobilApp.Repository.csproj", "{CC402B3A-696B-40CC-91EF-0FA30825D06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilApp.DataAccess", "MobilApp.DataAccess\MobilApp.DataAccess.csproj", "{9C289BE4-947E-49AB-B8DF-4DC8A93ACC46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilApp.API", "MobilApp.API\MobilApp.API.csproj", "{16CF8B34-B283-435C-A4FE-6832677FC188}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B80F08B-BB3C-475E-A45E-6BD56675B6C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B80F08B-BB3C-475E-A45E-6BD56675B6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B80F08B-BB3C-475E-A45E-6BD56675B6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B80F08B-BB3C-475E-A45E-6BD56675B6C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC402B3A-696B-40CC-91EF-0FA30825D06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC402B3A-696B-40CC-91EF-0FA30825D06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC402B3A-696B-40CC-91EF-0FA30825D06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC402B3A-696B-40CC-91EF-0FA30825D06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C289BE4-947E-49AB-B8DF-4DC8A93ACC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C289BE4-947E-49AB-B8DF-4DC8A93ACC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C289BE4-947E-49AB-B8DF-4DC8A93ACC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C289BE4-947E-49AB-B8DF-4DC8A93ACC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16CF8B34-B283-435C-A4FE-6832677FC188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CF8B34-B283-435C-A4FE-6832677FC188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CF8B34-B283-435C-A4FE-6832677FC188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CF8B34-B283-435C-A4FE-6832677FC188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B80F08B-BB3C-475E-A45E-6BD56675B6C4} = {7EF696E7-04D3-49BD-BE35-89CD9161731E}
+		{CC402B3A-696B-40CC-91EF-0FA30825D06E} = {7EF696E7-04D3-49BD-BE35-89CD9161731E}
+		{9C289BE4-947E-49AB-B8DF-4DC8A93ACC46} = {59FE952F-42E8-461C-A6BC-DDC5C8E4B3A8}
+		{16CF8B34-B283-435C-A4FE-6832677FC188} = {3BD1E28B-F6C5-4097-98E3-9BA9A2EF3BD3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {308EB9D7-D5F5-4882-A372-4B0B0A7DA353}
+	EndGlobalSection
+EndGlobal
