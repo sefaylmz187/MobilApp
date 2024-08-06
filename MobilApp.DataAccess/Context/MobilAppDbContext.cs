@@ -12,6 +12,7 @@ namespace MobilApp.DataAccess.Context
     {
         public MobilAppDbContext(DbContextOptions<MobilAppDbContext> options) : base(options) { }
         public DbSet<User> User { get; set; }
+        public DbSet<Products> Products { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
