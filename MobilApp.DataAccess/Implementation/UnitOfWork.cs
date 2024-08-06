@@ -18,6 +18,10 @@ namespace MobilApp.DataAccess.Implementation
         }
 
         public IUserRepository User { get;private set; }
+        public IProductRepository Product { get; private set; }
+        public IGroupRepository Group { get; private set; }
+        public ICategoryRepository Category { get; private set; }
+        public IBrandRepository Brand { get; private set; }
         public int Save()
         {
             return _carcontext.SaveChanges();
