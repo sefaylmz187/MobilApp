@@ -7,6 +7,7 @@
         IGroupRepository Group { get; }
         IBrandRepository Brand { get; }
         ICategoryRepository Category { get; }
+        ICustomerRepository Customer { get; }
         int Save();
     }
 }
