@@ -57,7 +57,7 @@ namespace MobilApp.API.Controllers
         public IActionResult Update([FromBody] Customer customer)
         {
             if (customer == null)
-            {
+            { 
                 return BadRequest();
             }
             var customers = _unitOfWork.Customer.GetById(customer.CustomerId);
