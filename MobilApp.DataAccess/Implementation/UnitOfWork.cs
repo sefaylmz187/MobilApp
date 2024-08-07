@@ -1,4 +1,4 @@
-﻿using MobilApp.DataAccess.Context;
+using MobilApp.DataAccess.Context;
 using MobilApp.Repository;
 using System;
 using System.Collections.Generic;
@@ -15,6 +15,11 @@ namespace MobilApp.DataAccess.Implementation
         {
             _carcontext = carcontext;
             User = new UserRepository(_carcontext);
+            Product = new ProductRepository(_carcontext);
+            Group = new GroupRepository(_carcontext);
+            Category = new CategoryRepository(_carcontext);
+            Brand = new BrandRepository(_carcontext);
+            Customer = new CustomerRepository(_carcontext);
         }
 
         public IUserRepository User { get;private set; }
